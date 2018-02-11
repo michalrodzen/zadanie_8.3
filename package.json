@@ -1,0 +1,27 @@
+{
+  "name": "learning-git-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:html",
+    "test:html": "globstar nu-html-checker *.html",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michalrodzen/learning-git-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michalrodzen/learning-git-2/issues"
+  },
+  "homepage": "https://github.com/michalrodzen/learning-git-2#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6"
+  },
+  "dependencies": {
+    "browser-sync": "^2.23.6"
+  }
+}
