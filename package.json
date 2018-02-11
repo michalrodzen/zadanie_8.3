@@ -1,27 +1,27 @@
 {
-  "name": "learning-git-2",
+  "name": "zadanie_8.3",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "jshint": "^2.9.5"
+  },
+  "devDependencies": {
+    "globstar": "^1.0.0"
+  },
   "scripts": {
-    "test": "npm run test:html",
-    "test:html": "globstar nu-html-checker *.html",
+    "test": "npm run test:js",
+    "test:js": "globstar jshint *.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/michalrodzen/learning-git-2.git"
+    "url": "git+https://github.com/michalrodzen/zadanie_8.3.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/michalrodzen/learning-git-2/issues"
+    "url": "https://github.com/michalrodzen/zadanie_8.3/issues"
   },
-  "homepage": "https://github.com/michalrodzen/learning-git-2#readme",
-  "devDependencies": {
-    "browser-sync": "^2.23.6"
-  },
-  "dependencies": {
-    "browser-sync": "^2.23.6"
-  }
+  "homepage": "https://github.com/michalrodzen/zadanie_8.3#readme"
 }
